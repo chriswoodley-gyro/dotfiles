@@ -1,5 +1,11 @@
 # Path where Git, node.js, and composer is installed
 export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
 
-# Use MAMP PHP as the default PHP
-export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
+# Use MAMP PHP and MySQL as the default
+export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:/Applications/MAMP/Library/bin:$PATH"
+
+# local-admin.mybpstation cake console
+export PATH=/Users/chris.woodley/Sites/220-192-admin-mybpstation-com.com/lib/Cake/Console:$PATH
+
+# path to sublime linters executables
+export PATH=/opt/bin:$PATH
