@@ -1,6 +1,7 @@
 # Path where Git, node.js, and composer is installed
 export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
 
+<<<<<<< HEAD
 # Use MAMP PHP and MySQL as the default
 export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:/Applications/MAMP/Library/bin:$PATH"
 
@@ -9,3 +10,10 @@ export PATH=/Users/chris.woodley/Sites/220-192-admin-mybpstation-com.com/lib/Cak
 
 # path to sublime linters executables
 export PATH=/opt/bin:$PATH
+=======
+# Use MAMP PHP as the default PHP
+export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
+
+# Path where composer packages (i.e. laravel) are installed
+export PATH="~/.composer/vendor/bin:$PATH"
+>>>>>>> c9cfb8d3729ebd52bbd18330a9b48054af6c3b8a
