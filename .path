@@ -6,3 +6,6 @@ export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
 
 # Path where composer packages (i.e. laravel) are installed
 export PATH="~/.composer/vendor/bin:$PATH"
+
+# Path where sublime linters are installed
+export PATH=/opt/bin:$PATH
