@@ -9,3 +9,6 @@ export PATH="$PATH:$HOME/Sites/220-192-admin-mybpstation-com.com/lib/Cake/Consol
 
 # Path where composer packages (i.e. laravel) are installed
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Path where svn installed
+export PATH=/opt/subversion/bin:$PATH
