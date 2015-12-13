@@ -1,5 +1,5 @@
 # Path where Git, node.js, and composer is installed
-export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/local/git/bin:$PATH"
 
 # Use MAMP PHP and MySQL as the default
 export PATH="/Applications/MAMP/bin/php/php5.6.10/bin:/Applications/MAMP/Library/bin:$PATH"
